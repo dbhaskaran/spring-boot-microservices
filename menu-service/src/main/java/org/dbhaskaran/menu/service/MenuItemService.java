@@ -23,12 +23,9 @@ public class MenuItemService {
 
     public ResponseTemplateVo findMenuItemWithRestaurant(long menuItemId) {
         ResponseTemplateVo resp = new ResponseTemplateVo();
-        MenuItem menuItem = null;
-        if(menuItemRepository.findById(menuItemId).isPresent()) {
-            menuItem = menuItemRepository.findById(menuItemId).get();
-            resp.setMenuItem(menuItem);
-        }
-        Restaurant restaurant = restTemplate.getForObject("http://Restaurant-Service/restaurants/" +
+        MenuItem menuItem = menuItemRepository.findById(menuItemId).isPresent() ? menuItemRepository.findById(menuItemId).get() : null;
+        resp.setMenuItem(menuItem);
+        Restaurant restaurant = restTemplate.getForObject("http://RESTAURANT-SERVICE/restaurants/" +
                 menuItem.getRestaurantId(), Restaurant.class);
         resp.setRestaurant(restaurant);
         return resp;
