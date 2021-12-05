@@ -1,0 +1,17 @@
+[
+{
+  "restaurantName": "Zareen's",
+  "restaurantLocation": "Mountain View, CA",
+  "rating": 4
+},
+{
+  "restaurantName": "Koi Palace",
+  "restaurantLocation": "Milipitas, CA",
+  "rating": 5
+},
+{
+  "restaurantName": "Himalaya Kitchen",
+  "restaurantLocation": "Mountain View, CA",
+  "rating": 3
+}
+]

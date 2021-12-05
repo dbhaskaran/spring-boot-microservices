@@ -1,0 +1,48 @@
+[
+  {
+    "menuItemName": "Student Chicken Biryani",
+    "menuItemPrice": 12.99,
+    "restaurantId": 1
+  },
+  {
+    "menuItemName": "Halwa Poori Nastha",
+    "menuItemPrice": 11.99,
+    "restaurantId": 1
+  },
+  {
+    "menuItemName": "Falooda",
+    "menuItemPrice": 7.99,
+    "restaurantId": 1
+  },
+  {
+    "menuItemName": "Scallion Pancakes",
+    "menuItemPrice": 4.99,
+    "restaurantId": 2
+  },
+  {
+    "menuItemName": "Shrimp Dumplings",
+    "menuItemPrice": 4.99,
+    "restaurantId": 2
+  },
+  {
+    "menuItemName": "Spinach Dumplings",
+    "menuItemPrice": 3.99,
+    "restaurantId": 2
+  },
+  {
+    "menuItemName": "Mango Lassi",
+    "menuItemPrice": 1.99,
+    "restaurantId": 3
+  },
+  {
+    "menuItemName": "Labbirpet Chicken Biryani",
+    "menuItemPrice": 12.99,
+    "restaurantId": 3
+  },
+  {
+    "menuItemName": "Ambur Mutton Biryani",
+    "menuItemPrice": 15.99,
+    "restaurantId": 3
+  }
+
+]
